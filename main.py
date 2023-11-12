@@ -22,8 +22,10 @@ from aiogram.webhook.aiohttp_server import (
 
 main_router = Router()
 
+
+
 BASE_URL = getenv("BASE_URL", "https://example.com")
-MAIN_BOT_TOKEN = getenv("BOT_TOKEN")
+MAIN_BOT_TOKEN = "6275270695:AAEOa1gkZm8_YznRxEWCjs2EqcBtYThhXI4"
 
 WEB_SERVER_HOST = "127.0.0.1"
 WEB_SERVER_PORT = 8080
